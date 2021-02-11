@@ -52,14 +52,14 @@ flutter:
     - assets/plate.jpeg
     - assets/beer.jpeg
     - assets/burger.png
-    - assets/cheeseburger.jpeg
-    - assets/chickenburger.jpeg
-    - assets/chickenpizza.jpeg
-    - assets/chipsburger.jpeg
-    - assets/fishpizza.jpeg
-    - assets/hawaianpizza.jpeg
-    - assets/lamburger.jpeg
-    - assets/peperoni.jpeg
+    - assets/burger3.png
+    - assets/burger2.png
+    - assets/pizza1.png
+    - assets/burger4.png
+    - assets/pizza2.png
+    - assets/pizza3.png
+    - assets/pizza4.png
+    - assets/burger1.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

@@ -123,49 +123,97 @@ class _MyAppState extends State<MyApp> {
                 padding: const EdgeInsets.symmetric(horizontal: 10.0, vertical: 5.0),
                 color: Colors.grey[200],
                 width: 500.0,
-                height:250.0,
+                height:300.0,
                 child: ListView(
                   scrollDirection: Axis.horizontal,
                   children: [
                     Card(child: Column(children: [
+                      Align(
+                        alignment: Alignment.topLeft,
+                        child: Container(
+                          margin: EdgeInsets.fromLTRB(5.0,5.0,0.0,0.0),
+                          width: 120.0,
+                          height: 25.0,
+                          decoration: BoxDecoration(borderRadius: BorderRadius.circular(10),color: Colors.white),
+                          child: Text("-10%",style: TextStyle(color: Colors.red,backgroundColor: Colors.green[100],fontSize:18.0),
+                          ),
+                        ),
+                      ),
                       SizedBox(
                       width: 150.0,
-                      child: Image.asset("assets/cheeseburger.jpeg",fit: BoxFit.fill,),
+                      child: Image.asset("assets/burger1.png",fit: BoxFit.fill,),
                       height:150.0 ,
+                      ),
+                      Container(
+                        alignment: Alignment.bottomLeft,
+                        child: IconButton(
+                          highlightColor: Colors.red,
+                          icon: Icon(Icons.favorite_border_rounded),
+                          color: Colors.black,
+                          onPressed: () {
+                            color: Colors.red;
+                          },
+                        ),
                       ),
                       Text("Burger"),
                         ],),
                       ),
                       Card(child: Column(children: [
+                      Align(
+                        alignment: Alignment.topLeft,
+                        child: Container(
+                          margin: EdgeInsets.fromLTRB(5.0,5.0,0.0,0.0),
+                          width: 120.0,
+                          height: 25.0,
+                          decoration: BoxDecoration(borderRadius: BorderRadius.circular(10),color: Colors.white),
+                          // child: Text("-2.5%",style: TextStyle(color: Colors.red,backgroundColor: Colors.green[100]),),
+                        ),
+                      ),
                       SizedBox(
-                      width: 150.0,
-                      child: Image.asset("assets/chickenburger.jpeg",fit: BoxFit.fill,),
+                      width: 180.0,
+                      child: Image.asset("assets/burger2.png",fit: BoxFit.fill,),
                       height: 150.0 ,
                       ),
                       Text("Pizza"),
                         ],),
                       ),
                       Card(child: Column(children: [
-                      Container(
+
+                      Align(
                         alignment: Alignment.topLeft,
-                        margin: EdgeInsets.all(5.0),
-                        width: 40.0,
-                        height: 25.0,
-                        decoration: BoxDecoration(borderRadius: BorderRadius.circular(10),color: Colors.blueGrey[50]),
-                        child: Text("-10%"),
+                        child: Container(
+                          margin: EdgeInsets.fromLTRB(5.0,5.0,0.0,0.0),
+                          width: 120.0,
+                          height: 25.0,
+                          decoration: BoxDecoration(borderRadius: BorderRadius.circular(10),color: Colors.white),
+                          // child: Text("-10%",style: TextStyle(color: Colors.red,backgroundColor: Colors.green[100]),),
+                        ),
                       ),
+                      
                       SizedBox(
                       width: 150.0,
-                      child: Image.asset("assets/chipsburger.jpeg",fit: BoxFit.fill,),
+                      child: Image.asset("assets/burger1.png",fit: BoxFit.fill,),
                       height:150.0 ,
                       ),
                       Text("Smoothies"),
+                      
                         ],),
+
                       ),
                       Card(child: Column(children: [
+                      Align(
+                        alignment: Alignment.topLeft,
+                        child: Container(
+                          margin: EdgeInsets.fromLTRB(5.0,5.0,0.0,0.0),
+                          width: 120.0,
+                          height: 25.0,
+                          decoration: BoxDecoration(borderRadius: BorderRadius.circular(10),color: Colors.white),
+                          child: Text("-2.5%",style: TextStyle(color: Colors.red,backgroundColor: Colors.green[100],fontSize:18.0),),
+                        ),
+                      ),
                       SizedBox(
                       width: 150.0,
-                      child: Image.asset("assets/lamburger.jpeg",fit: BoxFit.fill,),
+                      child: Image.asset("assets/burger4.png",fit: BoxFit.fill,),
                       height:150.0,
                       
                       ),
