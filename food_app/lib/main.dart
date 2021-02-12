@@ -6,6 +6,7 @@ void main() {
 }
 
 class MyApp extends StatefulWidget {
+  
   @override
   State<StatefulWidget> createState() {
     // TODO: implement createState
@@ -14,6 +15,15 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
+  Color _iconColor1 = Colors.black;
+  Color _iconColor2= Colors.black;
+  Color _iconColor3 = Colors.black;
+  Color _iconColor4= Colors.black;
+  Color _iconColor5 = Colors.black;
+  Color _iconColor6 = Colors.black;
+  Color _iconColor7 = Colors.black;
+  Color _iconColor8 = Colors.black;
+
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
@@ -154,9 +164,11 @@ class _MyAppState extends State<MyApp> {
                         child: IconButton(
                           highlightColor: Colors.red,
                           icon: Icon(Icons.favorite_border_rounded),
-                          color: Colors.black,
+                          color: _iconColor1,
                           onPressed: () {
-                            color: Colors.red;
+                            setState(() {
+                                                          _iconColor1 = Colors.red;
+                                                        });
                           },
                         ),
                       ),
@@ -184,9 +196,11 @@ class _MyAppState extends State<MyApp> {
                         child: IconButton(
                           highlightColor: Colors.red,
                           icon: Icon(Icons.favorite_border_rounded),
-                          color: Colors.black,
+                          color: _iconColor2,
                           onPressed: () {
-                            color: Colors.red;
+                            setState(() {
+                                                          _iconColor2 = Colors.red;
+                                                        });
                           },
                         ),
                       ),
@@ -216,9 +230,11 @@ class _MyAppState extends State<MyApp> {
                         child: IconButton(
                           highlightColor: Colors.red,
                           icon: Icon(Icons.favorite_border_rounded),
-                          color: Colors.black,
+                          color: _iconColor3,
                           onPressed: () {
-                            color: Colors.red;
+                            setState(() {
+                                                          _iconColor3 = Colors.red;
+                                                        });
                           },
                         ),
                       ),
@@ -249,9 +265,11 @@ class _MyAppState extends State<MyApp> {
                         child: IconButton(
                           highlightColor: Colors.red,
                           icon: Icon(Icons.favorite_border_rounded),
-                          color: Colors.black,
+                          color: _iconColor4,
                           onPressed: () {
-                            color: Colors.red;
+                            setState(() {
+                                                          _iconColor4 = Colors.red;
+                                                        });
                           },
                         ),
                       ),
@@ -302,9 +320,11 @@ class _MyAppState extends State<MyApp> {
                         child: IconButton(
                           highlightColor: Colors.red,
                           icon: Icon(Icons.favorite_border_rounded),
-                          color: Colors.black,
+                          color: _iconColor5,
                           onPressed: () {
-                            color: Colors.red;
+                            setState(() {
+                                                          _iconColor5 = Colors.red;
+                                                        });
                           },
                         ),
                       ),
@@ -330,11 +350,14 @@ class _MyAppState extends State<MyApp> {
                       Container(
                         alignment: Alignment.bottomLeft,
                         child: IconButton(
+                          
                           highlightColor: Colors.red,
                           icon: Icon(Icons.favorite_border_rounded),
-                          color: Colors.black,
+                          color: _iconColor6,
                           onPressed: () {
-                            color: Colors.red;
+                            setState(() {
+                                                          _iconColor6 = Colors.red;
+                                                        });
                           },
                         ),
                       ),
@@ -364,9 +387,11 @@ class _MyAppState extends State<MyApp> {
                         child: IconButton(
                           highlightColor: Colors.red,
                           icon: Icon(Icons.favorite_border_rounded),
-                          color: Colors.black,
+                          color: _iconColor7,
                           onPressed: () {
-                            color: Colors.red;
+                            setState(() {
+                                                          _iconColor7 = Colors.red;
+                                                        });
                           },
                         ),
                       ),
@@ -397,9 +422,11 @@ class _MyAppState extends State<MyApp> {
                         child: IconButton(
                           highlightColor: Colors.red,
                           icon: Icon(Icons.favorite_border_rounded),
-                          color: Colors.black,
+                          color: _iconColor8,
                           onPressed: () {
-                            color: Colors.red;
+                            setState(() {
+                                                          _iconColor8 = Colors.red;
+                                                        });
                           },
                         ),
                       ),
